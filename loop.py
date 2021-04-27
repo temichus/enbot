@@ -21,8 +21,8 @@ start_message = "Hello, I can remind you to fill JIRA every Friday.\nType /help 
 
 
 logger = logging.getLogger(__name__)
-file_handler = logging.FileHandler(os.path.join("var", "log", "register.log"), encoding="utf-8")
-logger.addHandler(file_handler)
+# file_handler = logging.FileHandler(os.path.join("var", "log", "register.log"), encoding="utf-8")
+# logger.addHandler(file_handler)
 
 
 def send_message(*args, **kwargs):

@@ -1,5 +1,5 @@
 import telepot
-inport os
+import os
 TOKEN = os.environ['TOKEN']
 bot = telepot.Bot(TOKEN)
 
